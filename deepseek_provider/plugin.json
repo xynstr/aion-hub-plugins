@@ -1,0 +1,5 @@
+{
+  "name": "DeepSeek Provider",
+  "description": "Use DeepSeek models (deepseek-chat, deepseek-reasoner) as AION's AI backend.",
+  "dependencies": ["openai", "httpx"]
+}

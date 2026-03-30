@@ -1,0 +1,5 @@
+{
+  "name": "Alexa Plugin",
+  "description": "Connect AION to Amazon Alexa for voice-triggered commands and smart home integration.",
+  "dependencies": []
+}

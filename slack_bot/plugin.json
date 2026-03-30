@@ -1,0 +1,5 @@
+{
+  "name": "Slack Bot",
+  "description": "Integrate AION into Slack workspaces. Responds to mentions and direct messages.",
+  "dependencies": ["slack-bolt"]
+}

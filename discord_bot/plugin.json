@@ -1,0 +1,5 @@
+{
+  "name": "Discord Bot",
+  "description": "Connect AION to a Discord server as a bot. Supports slash commands and channel messaging.",
+  "dependencies": ["discord.py"]
+}

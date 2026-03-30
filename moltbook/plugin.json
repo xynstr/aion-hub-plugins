@@ -1,0 +1,5 @@
+{
+  "name": "Moltbook",
+  "description": "Integration with the Moltbook platform for content creation and social media automation.",
+  "dependencies": ["requests"]
+}

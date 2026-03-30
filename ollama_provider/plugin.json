@@ -1,0 +1,5 @@
+{
+  "name": "Ollama Provider",
+  "description": "Use local Ollama models (llama3, mistral, etc.) as AION's AI backend — fully offline.",
+  "dependencies": ["openai"]
+}
