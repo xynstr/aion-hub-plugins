@@ -1,0 +1,228 @@
+{
+  "alexa_plugin": {
+    "name": "Alexa Plugin",
+    "description": "Connect AION to Amazon Alexa for voice-triggered commands and smart home integration.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/alexa_plugin-v1.0.0.zip",
+    "sha256": "30efb78f3f0a5ed2a6159f068bd680a138f1ded6b194acaf9f494f6ac9f742fb",
+    "dependencies": []
+  },
+  "anthropic_provider": {
+    "name": "Anthropic Provider",
+    "description": "Use Claude models (claude-3-5-sonnet, claude-opus, etc.) as AION's AI backend.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/anthropic_provider-v1.0.0.zip",
+    "sha256": "4d9625abd4daa8810bbc5399ab352e7b84076eb937e4ffb33a2c34805e6ae669",
+    "dependencies": [
+      "openai"
+    ]
+  },
+  "audio_pipeline": {
+    "name": "Audio Pipeline",
+    "description": "Text-to-speech and speech-to-text pipeline. Converts AION responses to audio and transcribes voice input.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/audio_pipeline-v1.0.0.zip",
+    "sha256": "01ce5f56153a41dc102497af07992ce6dc674135441b611da5ae13daa43c2adc",
+    "dependencies": [
+      "faster-whisper",
+      "pyttsx3",
+      "edge-tts"
+    ]
+  },
+  "audio_transcriber": {
+    "name": "Audio Transcriber",
+    "description": "Transcribe audio files to text using faster-whisper (local, no API key required).",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/audio_transcriber-v1.0.0.zip",
+    "sha256": "62e16226ea0b1925c1d34c1cae9ef48b52e9bffd1609dcc0b87e226247be23f7",
+    "dependencies": [
+      "faster-whisper"
+    ]
+  },
+  "character_manager": {
+    "name": "Character Manager",
+    "description": "Manage AION's character profile — name, personality traits, and behavioral guidelines.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/character_manager-v1.0.0.zip",
+    "sha256": "0ba606346f3dd1031afba9139c76f5502aeb65e41fe0510d5f3acb405596df65",
+    "dependencies": []
+  },
+  "claude_cli_provider": {
+    "name": "Claude CLI Provider",
+    "description": "Route AION requests through the Claude CLI for enhanced context and tool use.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/claude_cli_provider-v1.0.0.zip",
+    "sha256": "0e73386d3c207c9c4dda9081216f09761ba79da976b4a85432093f4ead603866",
+    "dependencies": []
+  },
+  "deepseek_provider": {
+    "name": "DeepSeek Provider",
+    "description": "Use DeepSeek models (deepseek-chat, deepseek-reasoner) as AION's AI backend.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/deepseek_provider-v1.0.0.zip",
+    "sha256": "3f985ae3a75e318667110a010930e4c78422cf266718b7fc7367a0afa06c74b0",
+    "dependencies": [
+      "openai",
+      "httpx"
+    ]
+  },
+  "desktop": {
+    "name": "Desktop Automation",
+    "description": "Full desktop automation — mouse control, keyboard input, screenshots, and clipboard access via pyautogui.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/desktop-v1.0.0.zip",
+    "sha256": "60b46ea638bf5420553cc80db16aedd1afec01af21dfb2f6848ea36445dd21f0",
+    "dependencies": [
+      "pyautogui",
+      "Pillow",
+      "pyperclip"
+    ]
+  },
+  "discord_bot": {
+    "name": "Discord Bot",
+    "description": "Connect AION to a Discord server as a bot. Supports slash commands and channel messaging.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/discord_bot-v1.0.0.zip",
+    "sha256": "c366532ec5c8f1e386ec25b7495d7e00b5e8855bf405a037bd33b5cd8eea8e0c",
+    "dependencies": [
+      "discord.py"
+    ]
+  },
+  "docx_tool": {
+    "name": "DOCX Creator",
+    "description": "Create and edit Word documents (.docx) from AION responses or structured content.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/docx_tool-v1.0.0.zip",
+    "sha256": "4e4dca6ae5b0043d449802ddabd738f039389e3364cbc8f4e8138318276c752c",
+    "dependencies": [
+      "python-docx"
+    ]
+  },
+  "focus_manager": {
+    "name": "Focus Manager",
+    "description": "Persistent task focus — injects the current focus goal into every AION turn for sustained attention.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/focus_manager-v1.0.0.zip",
+    "sha256": "4a0772fdc72a6e6544a14a7b04661bd967ea8089bf7e750fdbe73493f660fa66",
+    "dependencies": []
+  },
+  "gemini_provider": {
+    "name": "Gemini Provider",
+    "description": "Use Google Gemini models (gemini-2.0-flash, gemini-2.5-pro, etc.) as AION's AI backend.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/gemini_provider-v1.0.0.zip",
+    "sha256": "e7e99061faa0aaabe2e2898b690f33533e615c12ffac0630b97d3f34a1d3abca",
+    "dependencies": [
+      "google-genai"
+    ]
+  },
+  "grok_provider": {
+    "name": "Grok Provider",
+    "description": "Use xAI Grok models as AION's AI backend.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/grok_provider-v1.0.0.zip",
+    "sha256": "6fa69c9d6f09638d26fc8790b137b2c0483b3327dae07ba8bdcbdf29fbcada75",
+    "dependencies": [
+      "openai",
+      "httpx"
+    ]
+  },
+  "heartbeat": {
+    "name": "Heartbeat",
+    "description": "Periodic self-check — AION logs a heartbeat at configurable intervals to confirm it is running.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/heartbeat-v1.0.0.zip",
+    "sha256": "42961bc045eb86ab164b0b66dce36e4ac754dd68af6e594c28a5b736b1e80e7e",
+    "dependencies": []
+  },
+  "image_search": {
+    "name": "Image Search",
+    "description": "Search the web for images and return URLs. Supports Google and Bing image search.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/image_search-v1.0.0.zip",
+    "sha256": "e5818055b8938f49072c4f1a9d5254634eed30329307901ae9bd867a389ca9fe",
+    "dependencies": []
+  },
+  "mcp_client": {
+    "name": "MCP Client",
+    "description": "Connect to external MCP (Model Context Protocol) servers to extend AION with third-party tools.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/mcp_client-v1.0.0.zip",
+    "sha256": "288039a314a45d42982505ce1dcaf1c330e05e1cf2890e34f89f2d8e7dad460d",
+    "dependencies": []
+  },
+  "moltbook": {
+    "name": "Moltbook",
+    "description": "Integration with the Moltbook platform for content creation and social media automation.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/moltbook-v1.0.0.zip",
+    "sha256": "d209cfbc04ffb3dc1a0933f2f61de809f554f908e42d7101690b9b158b86e084",
+    "dependencies": [
+      "requests"
+    ]
+  },
+  "mood_engine": {
+    "name": "Mood Engine",
+    "description": "Dynamic mood system — AION's personality adapts based on context, time, and recent interactions.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/mood_engine-v1.0.0.zip",
+    "sha256": "eec916f662354a498c636b437cf749e1d7a7c1bbcf3d9dee97c9dcd1571d409e",
+    "dependencies": []
+  },
+  "multi_agent": {
+    "name": "Multi-Agent Router",
+    "description": "Spin up parallel sub-agents for complex multi-step tasks. AION delegates and aggregates results.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/multi_agent-v1.0.0.zip",
+    "sha256": "6f645a0fe5124104bd51cc44a6e916c3556cc05b6a55aebac47223af5957a45a",
+    "dependencies": []
+  },
+  "ollama_provider": {
+    "name": "Ollama Provider",
+    "description": "Use local Ollama models (llama3, mistral, etc.) as AION's AI backend — fully offline.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/ollama_provider-v1.0.0.zip",
+    "sha256": "c330cbe3c3bdd2731c86122cee9eabe8e15792cc77731c2da0d9f1fc76d4b3e6",
+    "dependencies": [
+      "openai"
+    ]
+  },
+  "playwright_browser": {
+    "name": "Playwright Browser",
+    "description": "Headless browser automation via Playwright. Browse, click, fill forms, and extract web content.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/playwright_browser-v1.0.0.zip",
+    "sha256": "cbba0b12925350733077a1adb62a2a08e2d1d8b4061c5c4b1f0aab2b05ca1b8d",
+    "dependencies": [
+      "playwright"
+    ]
+  },
+  "proactive": {
+    "name": "Proactive Memory",
+    "description": "Proactive memory analysis — AION surfaces relevant past context without being asked.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/proactive-v1.0.0.zip",
+    "sha256": "d353c4deb91a34e3e5bf75a0b569b86ce2060761b15440a1cb5408edb007071d",
+    "dependencies": []
+  },
+  "slack_bot": {
+    "name": "Slack Bot",
+    "description": "Integrate AION into Slack workspaces. Responds to mentions and direct messages.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/slack_bot-v1.0.0.zip",
+    "sha256": "1356c5bb37ba0b7d26a75d4351e85b434159298043d4175c1b87a975153e6bf3",
+    "dependencies": [
+      "slack-bolt"
+    ]
+  },
+  "telegram_bot": {
+    "name": "Telegram Bot",
+    "description": "Send and receive messages via Telegram. AION can notify you and respond to commands from any device.",
+    "version": "1.0.0",
+    "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/telegram_bot-v1.0.0.zip",
+    "sha256": "4baa754fd195e871a1387a8e9dc913f19835e531f64494005c100b4959ea47a2",
+    "dependencies": [
+      "httpx"
+    ]
+  }
+}
