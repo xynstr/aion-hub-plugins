@@ -93,7 +93,7 @@
     "description": "Word-Dokumente (.docx) vorlesen und als MP3 speichern. Kombiniert python-docx und das Audio Pipeline Plugin.",
     "version": "1.0.0",
     "download_url": "https://github.com/xynstr/aion-hub-plugins/releases/download/v1.0.0/docx_to_speech-v1.0.0.zip",
-    "sha256": "",
+    "sha256": "dcc98a26d663bebd750e5f45c6e932fcab1f68e82ec43d8dfd47ef824f2a841f",
     "dependencies": [
       "python-docx"
     ]
